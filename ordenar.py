@@ -31,4 +31,12 @@ elif n3 <= n1 and n3 <= n2:
   else:
     s2 = n2
     s3 = n1
+if (s1 == 0):
+  if (s2 == 0):
+    s1 = s3
+    s3 = 0
+    s2 = 0
+  else:
+    s1 = s2
+    s2 = 0
 print(str(s1)+str(s2)+str(s3))
